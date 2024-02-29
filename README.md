@@ -11,3 +11,9 @@ Secondly you need to create that home/yourname/bin with mkdir
 Thirdly you put all scripts in that folder and there it is. You can now use the script everywhere in your machine.
 
 If you have any questions feel free to ask me directly at campus or on slack, i most likely will not respond much on github
+
+----------
+
+Any future scripts or things i add to this repository i'll add to the install script if necessary.
+
+### Good work and good luck :)
