@@ -5,6 +5,6 @@ then
     cc -Wall -Wextra -Werror $name.c -o $name
 else
     name=($1 -exec basename {} .c \;)
-    cc -Wall -Wextra -Werror $name.c -o $name
+    cc -Wall -Wextra -Werror $name -o ${name%.c}
 fi
 
