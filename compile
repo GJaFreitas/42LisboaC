@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+if [ -z "$1" ]
+then
+    name=$(find . -type f -name "*.c" -exec basename {} .c \;)
+    cc -Wall -Wextra -Werror $name.c -o $name
+else
+    name=($1 -exec basename {} .c \;)
+fi
+
